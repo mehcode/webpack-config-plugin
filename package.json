@@ -1,0 +1,30 @@
+{
+  "name": "webpack-config-plugin",
+  "version": "0.1.0",
+  "description": "Configuration plugin (in the style of node-config) for webpack.",
+  "main": "lib/config-plugin.js",
+  "peerDependencies": {
+    "webpack": ">=1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mehcode/webpack-config-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "config"
+  ],
+  "author": {
+    "name": "Ryan Leckey",
+    "email": "leckey.ryan@gmail.com",
+    "url": "https://github.com/mehcode"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mehcode/webpack-config-plugin/issues"
+  },
+  "homepage": "https://github.com/mehcode/webpack-config-plugin",
+  "dependencies": {
+  }
+}
