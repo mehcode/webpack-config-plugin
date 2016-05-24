@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-plugin",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Configuration plugin (in the style of node-config) for webpack.",
   "main": "lib/config-plugin.js",
   "peerDependencies": {
