@@ -20,7 +20,8 @@ module.exports = {
     // [...]
     new ConfigPlugin({
       // Configuration directory
-      dir: path.join(__dirname, "config")
+      dir: path.join(__dirname, "config"),
+      skipLocal: true
     })
   ]
 }
@@ -30,4 +31,4 @@ module.exports = {
 
 When the plugin has been configured it enables a faux-module `config` which
 is a merge between a default configuration, an environment-specific
-configuration, and a local configuration.
+configuration, and a local configuration (which is skipped if skipLocal is defined).
